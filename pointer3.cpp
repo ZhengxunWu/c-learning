@@ -15,6 +15,7 @@ int main(){
   return 0;
 }
 //get warning: address of local variable 'local' returned
+//非动态分配，函数结束自动清除
 int* function(){
   int local=0;
   return &local;
