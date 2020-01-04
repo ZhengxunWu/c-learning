@@ -17,4 +17,4 @@ class Barney {
 };
 class Fred{
   Barney y;
-}
+};
